@@ -3,7 +3,10 @@
 
 int function(int x){
 	if(x<=0)
-    return 0;
+    {
+        x=x-2;
+        return 0;
+    }
 	return function(x);
 }
 
